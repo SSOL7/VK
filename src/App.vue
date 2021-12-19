@@ -51,10 +51,13 @@ export default {};
 
 #nav a {
   font-weight: bold;
-  color: #f2f6fa;
+  color: orangered;
   margin-bottom: 2rem;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
+  position: relative;
+  bottom: 9em;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
